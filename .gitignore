@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.db
+.pytest_cache/
+
+# --- Node / frontend ---
+node_modules/
+dist/
+.vite/
+
+# --- Environment ---
+.env
+*.env.local
+
+# --- Uploads / generated artifacts ---
+backend/uploads/images/*
+backend/uploads/voice/*
+backend/uploads/lab_reports/*
+backend/uploads/articles/*
+backend/uploads/reports/*
+!backend/uploads/**/.gitkeep
+backend/app/ml_artifacts/faiss_index/
+backend/app/ml_artifacts/*.joblib
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
